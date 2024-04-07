@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="./resources/logo.png" alt="demo">
-</p>
+
 
 <h3 align="center">Python Redis: A reimplementation of redis in pure python</h3>
 
