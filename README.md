@@ -14,6 +14,9 @@
 </p>
 <p align="center">
       <img src="https://badgen.net/badge/python/3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11" alt="Python version">
+   
+</p>
+<p align="center">
     <img src="./resources/demo.gif" alt="demo">
 </p>
 <p align="center">
