@@ -12,7 +12,8 @@
 </p>
 <p align="center">
       <img src="https://badgen.net/badge/python/3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11" alt="Python version">
-   
+ <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License MIT">
+      
 </p>
 <p align="center">
     <img src="./resources/demo2.gif" width="800" height="400" alt="demo">
@@ -23,9 +24,10 @@
     <a href="#contributing">Contributing</a> •
     <a href="#license">License</a> •
     <a href="#contact">Contact</a>
+
 </p>
 
-# Python-Redis
+# Python-Redis 
 
 Python-Redis is a Python reimplementation of Redis, a popular in-memory data structure store used as a database, cache. Python-Redis aims to provide similar functionality to Redis while being written entirely in Python, making it easier to understand, modify, and extend.
 
@@ -35,7 +37,7 @@ Python-Redis is a Python reimplementation of Redis, a popular in-memory data str
 
 - **Redis Client Compatibility**: Python-Redis can be connected to using any Redis client that supports the Redis protocol. This ensures compatibility with existing Redis clients and libraries.
 
-## How to Use
+## Run Locally
 
 To start using Python-Redis, follow these simple steps:
 
@@ -57,6 +59,19 @@ To start using Python-Redis, follow these simple steps:
 4. Connect to Python-Redis using a Redis client of your choice, specifying the host and port where Python-Redis is running.
 
 Note: Used [iredis](https://github.com/laixintao/iredis) for demo 
+
+## Deployment
+
+build the image
+
+```bash
+  docker build -t redis-server .
+```
+start the container
+
+```bash
+ docker run -d --name redis redis-server
+```
 
 ## Contributing
 
