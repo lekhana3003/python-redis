@@ -15,7 +15,7 @@
    
 </p>
 <p align="center">
-    <img src="./resources/demo.gif" width="800" height="400" alt="demo">
+    <img src="./resources/demo2.gif" width="800" height="400" alt="demo">
 </p>
 <p align="center">
     <a href="#features">Features</a> •
